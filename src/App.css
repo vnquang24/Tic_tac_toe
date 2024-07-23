@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+.mainSelect {
+  text-align: center;
+}
+.selectMode {
+  padding: auto;
+  font-size: 70px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+.App-logo {
+  height: 4cm;
+  pointer-events: none;
+}
+
+.App-header {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+.board_row {
+  display: flex;
+  justify-content: center;
+}
+.square {
+  display: flex; /* Thêm dòng này */
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000;
+  border-radius: 20%;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.status {
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
+}
+ .bt {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
